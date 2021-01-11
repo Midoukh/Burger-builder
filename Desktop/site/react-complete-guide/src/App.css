@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  background-color: lightblue;
+  
+}
+.App h1{
+  animation-name: App-logo-spin;
+  animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  animation-duration: 15s;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
